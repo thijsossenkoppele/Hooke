@@ -4,12 +4,32 @@ This repository contains the appendix to Thijs Ossenkoppele's MA thesis (MA Hist
   2. The Robert Hooke Corpus.
   3. Term-Concept Mappings.
   4. Annotations.
-  5. A simple python script for converting  tokenized XML files  to [FoLiA](https://proycon.github.io/folia/) XML files.
-  6. My MA thesis 'Robert Hooke's Baconianism. A Corpus-Based Study'.
+  5. A simple python script for converting tokenized XML files to [FoLiA](https://proycon.github.io/folia/) XML files.
+  6. My MA thesis: 'Robert Hooke's Baconianism. A Corpus-Based Study'.
 # 1. The Robert Hooke Bibliography
 The [Robert Hooke Bibliography](https://docs.google.com/spreadsheets/d/17OXFChkDK9xKA5oxtE6vi-GzYVqKVxd3-gcuD7q9yiw/edit?usp=sharing) is a Google Sheet with 356 entries. Each row is dedicated to a separate text by Robert Hooke, and the columns indicate dates, pages, sources, publishing information, notes, etc. The texts from the bibliography that are currently in the Robert Hooke Corpus are marked in the 'In Corpus' column.
 # 2. The Robert Hooke Corpus
-The Robert Hooke Corpus contains 229 documents, 4079 paragraphs, and 885.332 tokens. It has been manually corrected for OCR errors. Two versions of the corpus are available: [The Robert Hooke Corpus in txt format](https://drive.google.com/file/d/1TS7fM4wjH-79XxH0rML6zxLSPPXplvXr/view?usp=sharing) and [the Robert Hooke Corpus in FoLiA XML format](https://drive.google.com/file/d/1sMwz98ZPcHkM0pNsbPdUsyfwn2KkNmi0/view?usp=sharing). The txt files are paragraph segmented by double newlines. The FoLiA files have first been tokenized (word, sentence, and paragraph) by [UCTO](https://webservices.cls.ru.nl/ucto).
+The Robert Hooke Corpus contains 229 documents, 4079 paragraphs, and 885.332 tokens. It has been manually corrected for OCR errors. Two versions of the corpus are available: [The Robert Hooke Corpus in txt format](https://drive.google.com/file/d/1TS7fM4wjH-79XxH0rML6zxLSPPXplvXr/view?usp=sharing) and [the Robert Hooke Corpus in FoLiA XML format](https://drive.google.com/file/d/1sMwz98ZPcHkM0pNsbPdUsyfwn2KkNmi0/view?usp=sharing). The txt files are paragraph segmented by double newlines. The FoLiA files have first been tokenized (word, sentence, and paragraph) by [UCTO](https://webservices.cls.ru.nl/ucto). The UCTO-FoLiA conversion was done through this simple script:
+```
+import spacy
+import folia.main as folia
+from spacy2folia import spacy2folia
+import os
+
+nlp = spacy.load("en_core_web_sm")
+
+with os.scandir('HookeUcto/') as dir:
+	for inputfolia in dir:
+		f = open(inputfolia, 'r')
+		fname = str(f.name)
+			
+		if fname.endswith(".xml"):
+			foliadoc = folia.Document(file=fname)
+			spacy2folia.convert_folia(foliadoc, nlp)
+			foliadoc.save(fname + ".output.xml", 'w+')
+		else:
+			continue
+```
 # 3. Term-Concept Mappings
 The term-concept mappings that were used in writing the thesis can be found [here](https://docs.google.com/spreadsheets/d/1srdBZElcMJlUF3-Hl6sdC08Vlv3dehmatInuPUdPd50/edit?usp=sharing). The sheet contains terms that are closely related (functionally synonymous or semantically similar) to subconcepts of the concept 'Baconianism'. Only lists C (Natural History), D (Bits of Theory), and F (False Appearances) have been used in this thesis.
 # 4. Annotations
@@ -24,6 +44,7 @@ The annotations that were carried out in writing this thesis can be found [here]
    - **Subquestion 2a:** Does this paragraph contain a suggestion of a distinction between the historical and the philosophical components of investigation into nature?
    - **Subquestion 2b:** If 1 or 0 to SQ1a: Are there in this paragraph also clear methodological directions for the respective natural historical and natural philosophical parts, and/or directions for connecting the two?
    - **Subquestion 2c:** Does this paragraph contain expressions that explicitly suggest the merging of natural historical and philosophical methods?
+# 5. 
 
    
 
