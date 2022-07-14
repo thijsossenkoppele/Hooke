@@ -32,7 +32,7 @@ with os.scandir('HookeUcto/') as dir:
 # 3. Term-Concept Mappings
 The term-concept mappings that were used in writing the thesis can be found [here](https://docs.google.com/spreadsheets/d/1srdBZElcMJlUF3-Hl6sdC08Vlv3dehmatInuPUdPd50/edit?usp=sharing). The sheet contains terms that are closely related (functionally synonymous or semantically similar) to subconcepts of the concept 'Baconianism'. Only lists C (Natural History), D (Bits of Theory), and F (False Appearances) have been used in this thesis.
 # 4. Annotations
-The annotations that were carried out in writing this thesis can be found [here](https://docs.google.com/spreadsheets/d/1bOhLmXqF191UaVrM1yzJ9cyduzuKUldC9jga7nvwzZk/edit?usp=sharing). The annotations correspond to two separate annotation tasks. Each paragraph was scored with 1 (yes), 0 (maybe/more context necessary), or -1 (no):
+The annotations that were carried out in writing this thesis can be found [here](https://docs.google.com/spreadsheets/d/1bOhLmXqF191UaVrM1yzJ9cyduzuKUldC9jga7nvwzZk/edit?usp=sharing). The annotations correspond to two separate annotation tasks: 
 1. **Research Question 1:** To what extent does Hooke’s conception of the (internal) sources of false appearances deviate from Bacon’s doctrine of the idols?
    - **Subquestion 1a:** Is at least one of Bacon’s four idols represented in this paragraph?
    - **Subquestion 1b:** Does Hooke introduce a source of false appearances that cannot be subsumed under one of Bacon’s idols?
@@ -43,7 +43,9 @@ The annotations that were carried out in writing this thesis can be found [here]
    - **Subquestion 2a:** Does this paragraph contain a suggestion of a distinction between the historical and the philosophical components of investigation into nature?
    - **Subquestion 2b:** If 1 or 0 to SQ1a: Are there in this paragraph also clear methodological directions for the respective natural historical and natural philosophical parts, and/or directions for connecting the two?
    - **Subquestion 2c:** Does this paragraph contain expressions that explicitly suggest the merging of natural historical and philosophical methods?
-# 5. 
+Each paragraph was scored with 1 (yes), 0 (maybe/more context necessary), or -1 (no). For details about the columns in the annotation sheets, see [here](https://github.com/martinreynaert/HitPaRank#contents-of-output-list-a--extracted-paragraphs).
+# 5. Robert Hooke's Baconianism. A Corpus-Based Study
+The MA thesis to which this repository is the appendix, and which contain more details about the exact aim of the files in this repository, can be found [here](https://drive.google.com/file/d/1nsiBsahNoeX34K6dMSqc_79PWRUZ4GDs/view?usp=sharing). 
 
    
 
