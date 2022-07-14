@@ -14,10 +14,10 @@ The Robert Hooke Corpus contains 229 documents, 4079 paragraphs, and 885.332 tok
 The term-concept mappings that were used in writing the thesis can be found [here](https://docs.google.com/spreadsheets/d/1srdBZElcMJlUF3-Hl6sdC08Vlv3dehmatInuPUdPd50/edit?usp=sharing). The sheet contains terms that are closely related (functionally synonymous or semantically similar) to subconcepts of the concept 'Baconianism'. Only lists C (Natural History), D (Bits of Theory), and F (False Appearances) have been used in this thesis.
 # 4. Annotations
 The annotations that were carried out in writing this thesis can be found [here](https://docs.google.com/spreadsheets/d/1bOhLmXqF191UaVrM1yzJ9cyduzuKUldC9jga7nvwzZk/edit?usp=sharing). The annotations correspond to two separate annotation tasks:
-1. *Research Question 1:* To what extent does Hooke’s conception of the (internal) sources of false appearances deviate from Bacon’s doctrine of the idols?
-*Subquestion 1a:* Is at least one of Bacon’s four idols represented in this paragraph?
-*Subquestion 1b:* Does Hooke introduce a source of false appearances that cannot be subsumed under one of Bacon’s idols?
-*Subquestion 1c:* Does Hooke encourage the use of some method for detecting or avoiding the false appearances found in answering SQ1 and/or SQ2? 
+1. **Research Question 1:** To what extent does Hooke’s conception of the (internal) sources of false appearances deviate from Bacon’s doctrine of the idols?
+   - **Subquestion 1a:** Is at least one of Bacon’s four idols represented in this paragraph?
+   - **Subquestion 1b:** Does Hooke introduce a source of false appearances that cannot be subsumed under one of Bacon’s idols?
+   - **Subquestion 1c:** Does Hooke encourage the use of some method for detecting or avoiding the false appearances found in answering SQ1 and/or SQ2?
 
 
 
