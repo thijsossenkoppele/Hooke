@@ -18,9 +18,9 @@ The annotations that were carried out in writing this thesis can be found [here]
    - **Subquestion 1a:** Is at least one of Bacon’s four idols represented in this paragraph?
    - **Subquestion 1b:** Does Hooke introduce a source of false appearances that cannot be subsumed under one of Bacon’s idols?
    - **Subquestion 1c:** Does Hooke encourage the use of some method for detecting or avoiding the false appearances found in answering SQ1 and/or SQ2?
-2a. **Research Question 2a:** Is there, cf. Mulligan (1992) and Sacco (2019), indeed a ‘gradual merging’ of the natural historical and philosophical parts in Hooke’s methodological programme?
-2b. **Research Question 2b:** If so, can we tell 1) when this merging sets in, and 2) whether the merging is apparent in all types of text?
-2c. **Research Question 2c:** If not, does Hooke maintain a clear methodological distinction between the historical and the philosophical parts (as opposed to a mere conceptual distinction without a methodological division of labor between the historian and philosopher)?
+2. **Research Question 2a:** Is there, cf. Mulligan (1992) and Sacco (2019), indeed a ‘gradual merging’ of the natural historical and philosophical parts in Hooke’s methodological programme?
+   **Research Question 2b:** If so, can we tell 1) when this merging sets in, and 2) whether the merging is apparent in all types of text?
+   **Research Question 2c:** If not, does Hooke maintain a clear methodological distinction between the historical and the philosophical parts (as opposed to a mere conceptual distinction without a methodological division of labor between the historian and philosopher)?
    - **Subquestion 2a:** Does this paragraph contain a suggestion of a distinction between the historical and the philosophical components of investigation into nature?
    - **Subquestion 2b:** If 1 or 0 to SQ1a: Are there in this paragraph also clear methodological directions for the respective natural historical and natural philosophical parts, and/or directions for connecting the two?
    - **Subquestion 2c:** Does this paragraph contain expressions that explicitly suggest the merging of natural historical and philosophical methods?
