@@ -7,4 +7,5 @@ This repository contains the appendix to Thijs Ossenkoppele's MA thesis (MA Hist
   5. A simple python script for converting UCTO-tokenized XML files (https://webservices.cls.ru.nl/ucto) to FoLiA XML files (https://proycon.github.io/folia/).
   6. My MA thesis 'Robert Hooke's Baconianism. A Corpus-Based Study'.
 # 1. The Robert Hooke Bibliography
-https://docs.google.com/spreadsheets/d/17OXFChkDK9xKA5oxtE6vi-GzYVqKVxd3-gcuD7q9yiw/edit?usp=sharing 
+The [Robert Hooke Bibliography](https://docs.google.com/spreadsheets/d/17OXFChkDK9xKA5oxtE6vi-GzYVqKVxd3-gcuD7q9yiw/edit?usp=sharing) is a Google Sheet with 356 entries. Each row is dedicated to a separate text by Robert Hooke, and the columns indicate dates, pages, sources, publishing information, notes, etc. The texts from the bibliography that are currently in the Robert Hooke Corpus are marked in the 'In Corpus' column.
+# 2. The Robert Hooke Corpus
