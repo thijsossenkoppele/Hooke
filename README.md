@@ -1,14 +1,14 @@
-# Hooke
+# eHook
 This repository contains the appendix to Thijs Ossenkoppele's MA thesis (MA History and Philosophy of Science, Utrecht University 2022). The following resources can be found here:
   1. The Robert Hooke Bibliography.
-  2. The Robert Hooke Corpus.
+  2. eHook.
   3. Term-Concept Mappings.
   4. Annotations.
   5. My MA thesis: 'Robert Hooke's Baconianism. A Corpus-Based Study'.
 # 1. The Robert Hooke Bibliography
-The [Robert Hooke Bibliography](https://docs.google.com/spreadsheets/d/17OXFChkDK9xKA5oxtE6vi-GzYVqKVxd3-gcuD7q9yiw/edit?usp=sharing) is a Google Sheet with 356 entries. Each row is dedicated to a separate text by Robert Hooke, and the columns indicate dates, pages, sources, publishing information, notes, etc. The texts from the bibliography that are currently in the Robert Hooke Corpus are marked in the 'In Corpus' column.
-# 2. The Robert Hooke Corpus
-The Robert Hooke Corpus contains 229 documents, 4079 paragraphs, and 885.332 tokens. It has been manually corrected for OCR errors. Two versions of the corpus are available: [the Robert Hooke Corpus in txt format](https://drive.google.com/file/d/1TS7fM4wjH-79XxH0rML6zxLSPPXplvXr/view?usp=sharing) and [the Robert Hooke Corpus in FoLiA XML format](https://drive.google.com/file/d/1sMwz98ZPcHkM0pNsbPdUsyfwn2KkNmi0/view?usp=sharing). The txt files are paragraph segmented by double newlines. The [FoLiA](https://proycon.github.io/folia/) files have first been tokenized (word, sentence, and paragraph) by [UCTO](https://webservices.cls.ru.nl/ucto). The UCTO-FoLiA conversion was done through this simple script (UPDATE: using this script is not necessary, spaCy NLP can be added to your FoLiA files simply from the command line, see [here](https://github.com/proycon/spacy2folia)):
+The [Robert Hooke Bibliography](https://docs.google.com/spreadsheets/d/17OXFChkDK9xKA5oxtE6vi-GzYVqKVxd3-gcuD7q9yiw/edit?usp=sharing) is a Google Sheet with 356 entries. Each row is dedicated to a separate text by Robert Hooke, and the columns indicate dates, pages, sources, publishing information, notes, etc. The texts from the bibliography that are currently in eHook are marked in the 'In Corpus' column.
+# 2. eHook
+eHook contains 229 documents, 4079 paragraphs, and 885.332 tokens. It has been manually corrected for OCR errors. Two versions of eHook are available: [eHook in txt format](https://drive.google.com/file/d/1TS7fM4wjH-79XxH0rML6zxLSPPXplvXr/view?usp=sharing) and [eHook in FoLiA XML format](https://drive.google.com/file/d/1sMwz98ZPcHkM0pNsbPdUsyfwn2KkNmi0/view?usp=sharing). The txt files are paragraph segmented by double newlines. The [FoLiA](https://proycon.github.io/folia/) files have first been tokenized (word, sentence, and paragraph) by [UCTO](https://webservices.cls.ru.nl/ucto). The UCTO-FoLiA conversion was done through this simple script (UPDATE: using this script is not necessary, spaCy NLP can be added to your FoLiA files simply from the command line, see [here](https://github.com/proycon/spacy2folia)):
 ```
 import spacy
 import folia.main as folia
